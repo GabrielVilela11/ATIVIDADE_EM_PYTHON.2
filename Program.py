@@ -33,12 +33,17 @@ if 0 < tempo <= 360:
         elif tempo == 12:
             print(f"A casa foi fianciada por {ano} ano")
 
-
-        elif ano == 1 and (meses == '0' or meses == '1'):
+        elif ano == 1 and (meses == '0'):
             print(f"A casa foi financiada por {a} ano")
+            
+        elif ano == 1 and (meses == '1'):
+            print(f"A casa foi financiada por {a} ano e {meses}mês")
 
-        elif ano > 1 and (meses == '0' or meses == '1'):
+        elif ano > 1 and (meses == '0'):
             print(f"A casa foi financiada por {a} anos")
+            
+        elif ano > 1 and (meses == '1'):
+            print(f"A casa foi financiada por {a} anos e {meses}mês")
 
         else:
             print(f"A casa foi financiada por {a} anos e {meses} meses")
