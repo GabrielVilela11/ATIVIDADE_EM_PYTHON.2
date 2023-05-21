@@ -4,8 +4,7 @@ print("Você pode financiar uma casa conosco em até 30 anos sem que os valores 
 
 casa = float(input("Qual o valor da casa? R$"))
 salario = float(input("Qual o seu salário mensal? R$"))
-tempo = int(input("Sabendo que para financiar uma casa, é cobrado 6% de "
-                  "juros ao ano. Em quantos meses deseja pagar a casa: "))
+tempo = int(input("Sabendo que para financiar uma casa, é cobrado 6% de juros ao ano. Em quantos meses deseja pagar a casa: "))
 
 ano = tempo / 12
 
